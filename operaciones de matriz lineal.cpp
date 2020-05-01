@@ -1,4 +1,5 @@
 #include"stdio.h"
+#include"iostream"
 using namespace std;
 
 //ya hay librerias que nos ahorraria todos estos algoritmos, pero no hay que olvidar los origenes de todo 
@@ -85,5 +86,7 @@ void operacionActualizacion()
     
 }
 int main(){
-    
+    int x;
+    cin>>x;
+    return 0;
 }
