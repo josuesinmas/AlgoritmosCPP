@@ -1,6 +1,6 @@
 #include"stdio.h"
 using namespace std;
-int OperacionTranscersal(){
+int OperacionTransversal(){
     int MatrizLineal[] = {1,2,5,7,6};
     int Objeto = 10, k = 3, n = 5;
     int i = 0, j = n;
