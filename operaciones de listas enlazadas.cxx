@@ -1,4 +1,5 @@
 #include"stdio.h"
+#include"iostream"
 using namespace std;
 void InsetFirst(int key, int data)
 {
@@ -23,10 +24,10 @@ void InsetFirst(int key, int data)
         
 }
 void OperacionBorrado(){
-    struct node* DeleteFirst(){
-        struct node *tenplink = head;
+    struct node* deleteFirst() {
+        struct node *templink = head;
         if(head->next == NULL){
-            last = NULL
+            last = NULL;
         }else{
             head->next->prev = NULL;
         }
@@ -37,6 +38,21 @@ void OperacionBorrado(){
     }
 
 }
+void inserlast(int key, int data){
+    struct node *link =(struct node*) malloc(sizeof(struct node));
+    link->key =key;
+    link->data =data;
+
+    if(isEmpty()){
+        last = link;
+    }else{
+        last->next = link;
+        link->prev = last;
+
+    }
+    last = link;
+}
+
 int main()
 {
     return 0;
