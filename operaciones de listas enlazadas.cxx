@@ -2,7 +2,6 @@
 #include "string.h"
 #include "stdlib.h"
 #include "stdbool.h"
-
 using namespace std;
 
 struct node{
