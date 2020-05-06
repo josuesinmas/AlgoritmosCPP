@@ -1,5 +1,6 @@
 #include"stdio.h"
 #include"iostream"
+#include"list"
 using namespace std;
 void InsetFirst(int key, int data)
 {
