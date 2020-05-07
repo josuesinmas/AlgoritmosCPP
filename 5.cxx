@@ -13,5 +13,5 @@ int peek(){
     return intArray[front];
 }
 bool isEmpty(){
-    return
+    return 0;
 }

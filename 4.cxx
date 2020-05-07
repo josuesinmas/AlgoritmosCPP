@@ -1,5 +1,7 @@
 #include "stdio.h"
 #include "string.h"
+#include "iostream"
+#include "conio.h"
 
 
 char stack[25];
@@ -120,7 +122,7 @@ char pop_int()
     return stack_int[top_int--];
 }
 bool isdigit(char digito){
-    if (digito!='0')!true,false;
+    if (kbhit)!true,false;
 }
 int evaluate(char *postfix)
 {
@@ -169,5 +171,6 @@ void ejecucion()
 int main(){
     int x;
     ejecucion();
+    
     return 0;
 }
