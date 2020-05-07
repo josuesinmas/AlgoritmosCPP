@@ -1,0 +1,25 @@
+{
+// Vea https://go.microsoft.com/fwlink/?LinkId=733558 
+    // para la documentación acerca del formato tasks.json
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++.exe build active file",
+            "command": "g++.exe",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "C:\\Program Files (x86)\\Dev-Cpp\\MinGW64\\bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        }
+    ]
+}
